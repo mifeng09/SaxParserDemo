@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE 书架 SYSTEM "book.dtd">
+<!-- <书架>
+	<书>
+		<书名>xxx</书名>
+		 <作者>jjf</作者> 
+		<售价>23</售价>
+	</书>
+	<书>
+		<书名>yyy</书名>
+		<作者>蜜蜂</作者>
+		<售价>12</售价>
+	</书>
+</书架> -->
+
+<shelf>
+	<book>
+		<name>xxx</name>
+		 <author>jjf</author>
+		<price>23</price>
+	</book>
+	<book>
+		<name>yyy</name>
+		<author>蜜蜂</author>
+		<price>12</price>
+	</book>
+</shelf>

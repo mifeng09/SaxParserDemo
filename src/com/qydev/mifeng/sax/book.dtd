@@ -1,0 +1,13 @@
+<!--<!ELEMENT S (书+)>-->
+<!--<!ELEMENT 书 ((书名,作者)|售价)>-->
+<!--<!ELEMENT 书 (书名,作者,售价)>-->
+<!--<!ELEMENT 书名 (#PCDATA)>-->
+<!--<!ELEMENT 作者 (#PCDATA)>-->
+<!--<!ELEMENT 售价 (#PCDATA)> -->
+
+<!ELEMENT Shelf (book+)>
+<!--<!ELEMENT 书 ((书名,作者)|售价)>-->
+<!ELEMENT book (name,author,price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
